@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section Scripts {
+<script src="~/js/demo.js" asp-append-version="false"></script>
+}
+
+<div>
+    <h1>Welcome</h1>
+
+    <button onclick="get_time_from_api()">get time</button>
+    <button onclick="echo()">echo text</button>
+
+    <br />
+
+</div>
